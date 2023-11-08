@@ -7,5 +7,5 @@ const ProdutoSuplementoSchema = new mongoose.Schema({
     quantEstoque : {type : Date, required: false}
 });
 
-const User = mongoose.model('User', UserSchema);
+const Produto = mongoose.model('Produto', ProdutoSuplementoSchemaSchema);
 module.exports = Produto;
